@@ -1,231 +1,240 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
   xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
 >
   <pgterms:ebook rdf:about="ebooks/18021">
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-03-20</dcterms:issued>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18021.plucker">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T20:57:30.623981</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne047fbfb11a548f091a4d0c0b44ee9ea">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169341</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N5f61a3c3f62b4eb9a05f19842cb6f58a">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18021.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T03:59:28.290822</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">133825</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N491c449748a6483195f97b6e8c3a10a0">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18021.qioo">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T20:57:26.769829</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Naa9c7a0d25534c7c978ee8113a9b663d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164627</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18021/18021-8.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd37795592aca45a78fed8d51d73cdecd">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-20T09:59:26</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102925</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndba3eaf7113d4d64be1624a9220868e8">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18021.kindle.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N0e49c1ea9fc241418863bc1ae30d07e9">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T03:59:31.913196</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231012</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nfca53e1290464be58863937300a2913d">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Chinese literature</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:title>China and the Chinese</dcterms:title>
-    <dcterms:tableOfContents>The Chinese language -- A Chinese library -- Democratic China -- China and ancient Greece -- Taoism -- Some Chinese manners and customs.</dcterms:tableOfContents>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18021/18021-h.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-20T09:59:26</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N640ddc8400b741c8b480c0f94a51dfc0">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129103</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na2c9afa0b68445d5958c0e5d87c36ca1">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N8101a7d86bf44c53a2f948adf2e95c00">
-        <rdf:value>DS</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18021/18021-0.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N873bfa0654944e529429ca7dad1b94d7">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-20T09:59:26</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103379</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N820d742888fc49a5a44f12ec42f9584d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N699de4b4d0e947708602728ec289b310">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>China -- Social life and customs</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N375b0d766363417196520a6aa93a6466">
-        <rdf:value>Chinese language</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18021.epub.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T03:59:29.120989</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150461</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na87b2ce6b4784e07bd2f019f8e38331e">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/814">
-        <pgterms:name>Giles, Herbert Allen</pgterms:name>
-        <pgterms:alias>Giles, H. A. (Herbert Allen)</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1935</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1845</pgterms:birthdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Herbert_Giles"/>
-      </pgterms:agent>
-    </dcterms:creator>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/18021/18021-h/18021-h.htm">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">336981</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">336981</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3a3bb6106d9f4c50aa3bb06f21884957">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="N7d347f8a050b462083780d18509cbb5b">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-20T09:19:46</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18021.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217152</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T03:59:30.408692</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18021/18021-0.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4536d013614f44329a80a6c1ecd5fecc">
+          <rdf:Description rdf:nodeID="Nd037d58b01fd4261b1e39c235acbc13a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103379</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-20T09:59:26</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N87f71f3befd640a292e6b87cbac1aed2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18021/18021-8.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-20T09:59:26</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N314b8385c57342469d8772885dfba370">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102925</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndea80c85dc3740df880ecce270bba756">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N06990e8ce1364f08b062c08f15bf84b7">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>DS</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18021.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T02:48:48.896969</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145410</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N28af3c3b7063410abd9f50f7b9798063">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nb32b94a685574753b6a88cce1acb1dbb">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Chinese language</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18021/18021-h.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-20T09:59:26</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf1d3ffa1bd6f4e0bb19790264e5aa999">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129103</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncc02edc26c904630b913b2a9355368fe">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18021.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:13:35.702769</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na6722dcb57ab4d91a6518e67e51dd3ad">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15268</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Na313c0d681d248c5b44f048824faff86">
+        <rdf:value>Chinese literature</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18021.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">608372</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncc31b2f23f024456a65014d0ad4c968e">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T02:48:51.049925</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18021/18021.txt">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18021.epub.noimages">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N73783ecf477b49a080acd2454b3e595b">
+          <rdf:Description rdf:nodeID="N0aa5c7e0defd4dc6abb6f9399b436f0f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">273895</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-20T09:20:24</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128108</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T02:48:49.269959</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18021/18021-0.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-20T09:19:40</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18021.kindle.noimages">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N72997878e3344abba6e8da552332dd89">
+          <rdf:Description rdf:nodeID="Nf8a9f872ad904bcb97fa668429f0eb9a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">574706</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T02:48:52.856894</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nc3b42734dc7e4ad39c12cb4ffa552807">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Taoism</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</pgterms:downloads>
+    <dcterms:tableOfContents>The Chinese language -- A Chinese library -- Democratic China -- China and ancient Greece -- Taoism -- Some Chinese manners and customs.</dcterms:tableOfContents>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18021/18021-0.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-20T09:19:40</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">273978</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nabf84b4c9a504cea9664d9dec6b06e17">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">273978</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18021/18021.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102754</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5fffbc3a5da44315b0f3f08a396088d1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-20T09:59:26</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ned1373352bbd42d3a21d3198fdeaec6f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nd632595cf7a84283a55ea5ec32d37bc5">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18021/18021.txt">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nff986db176be44c2973455d782f10609">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">273895</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-20T09:20:24</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/814">
+        <pgterms:name>Giles, Herbert Allen</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Herbert_Giles"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1845</pgterms:birthdate>
+        <pgterms:alias>Giles, H. A. (Herbert Allen)</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1935</pgterms:deathdate>
+        <pgterms:alias>Giles, Herbert A.</pgterms:alias>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:title>China and the Chinese</dcterms:title>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N82f97d01537f414789646058a03175c3">
+      <rdf:Description rdf:nodeID="N903e1f6bb1cf4c6984d64aa3e45a0261">
         <rdf:value>Text</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
       </rdf:Description>
@@ -233,46 +242,28 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/18021/18021-8.txt">
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">273850</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na4afa8ba250243749827cd808a449a6e">
+          <rdf:Description rdf:nodeID="N8f38b916104b464690862be314af76dc">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-20T09:20:24</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-03-20</dcterms:issued>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N6d8e2b068d944762b895ce5c90b7c36d">
+      <rdf:Description rdf:nodeID="N9316eec8167847da8b38985c5a9ae3d1">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Taoism</rdf:value>
+        <rdf:value>China -- Social life and customs</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18021/18021.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N0b9efc8ae49543bf886ebe0b2027266f">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/18021"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-20T09:59:26</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102754</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbb5890a3c10348af860d8a65731635fd">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</pgterms:downloads>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Herbert_Giles">
     <dcterms:description>Wikipedia</dcterms:description>
